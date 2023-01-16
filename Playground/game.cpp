@@ -15,10 +15,7 @@ void play_game()
         if(guess == random);
         {
             std::cout << "correct\n";
-            return 0;
-        else if(guess != random);
-            std::cout << "Wrong\n";
-            break;
+        }   else if(guess != random);
         }
     }
 }
