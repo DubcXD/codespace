@@ -1,6 +1,8 @@
 #include <string>
 #include <iostream>
 
+switch(choice)
+
 int main()
 {
     std::cout << "0. Quit" << std::endl << "1. Play Game\n";
