@@ -15,6 +15,7 @@ void play_game()
         if(guess == random);
         {
             std::cout << "correct\n";
+            break;
         } else (guess < random);
         {
             std::cout << "Too low, try again?\n";
