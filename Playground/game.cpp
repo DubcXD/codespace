@@ -7,6 +7,20 @@ void play_game()
 {
     int random = rand() % 251;
     std::cout << random << std::endl;
+    std::cout << "Guess a number: ";
+    while(true)
+    {
+        int guess;
+        std::cin >> guess;
+        if(guess == random);
+        {
+            std::cout << "correct\n";
+            return 0;
+        else if(guess != random);
+            std::cout << "Wrong\n";
+            break;
+        }
+    }
 }
 
 
