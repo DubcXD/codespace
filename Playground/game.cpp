@@ -6,7 +6,6 @@
 void play_game()
 {
     int random = rand() % 251;
-    std::cout << random << std::endl;
     std::cout << "Guess a number: ";
     while(true)
     {
