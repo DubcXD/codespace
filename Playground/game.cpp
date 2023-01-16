@@ -18,12 +18,6 @@ void play_game()
         } else (guess < random);
         {
             std::cout << "Too low, try again?\n";
-            {
-                else (guess > random);
-                {
-                    std::cout << "Too high, try again?\n";
-                }
-            }
         }
 
     }
