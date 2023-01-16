@@ -1,9 +1,18 @@
 #include <string>
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+void play_game()
+{
+    int random = rand() % 251;
+    std::cout << random << std::endl;
+}
+
 
 int main()
 {
-
+    srand(time(NULL));
     int choice;
     do
     {
@@ -16,7 +25,7 @@ int main()
             std::cout << "Why not? Games are fun\n";
             return 0;
         case 1:
-            std::cout << "Yey, Let play!\n";
+            play_game();
             break;
         }
 
