@@ -12,15 +12,17 @@ void play_game()
     {
         int guess;
         std::cin >> guess;
-        if(guess == random);
+        if(guess == random)
         {
             std::cout << "correct\n";
             break;
-        } else (guess < random);
+        } else if (guess < random)
         {
-            std::cout << "Too low, try again?\n";
+            std::cout << "Too low, try again\n";
+        }else
+        {
+            std::cout << "Too high, try again\n";
         }
-
     }
 }
 
