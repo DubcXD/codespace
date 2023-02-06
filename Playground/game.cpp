@@ -13,7 +13,7 @@ void play_game()
         std::cin >> guess;
         if(guess == random)
         {
-            std::cout << "correct\n";
+            std::cout << "Correct\n";
             break;
         } else if (guess < random)
         {
